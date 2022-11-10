@@ -1,0 +1,16 @@
+{
+    "dbName": "tododb",
+    "dbConfig": {
+        "server": "localhost",
+        "options": {
+            "trustServerCertificate": true
+        },
+        "authentication": {
+            "options": {
+                "userName": "sa",
+                "password": "Fran1234_$"
+            },
+            "type": "default"
+        }
+    }
+}

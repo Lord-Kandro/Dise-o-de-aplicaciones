@@ -1,0 +1,23 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Aplicación web para llevar una lista de tareas ordenadas en grupos, y por varios usuarios. ",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon", 
+    "lint": "standard",
+    "lint-fix":"standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frashi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.25.2",
+    "tedious": "^15.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "standard": "^17.0.0"
+  }
+}
